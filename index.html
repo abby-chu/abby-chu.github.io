@@ -66,8 +66,8 @@
              Water stress is defined as the ratio of total water demand to available renewable water supply  <em> (WRI Aqueduct 4.0) </em>
                <figure class="media-card media-card--full">
           <img
-            src="choropleth_bau50_ws_category.png"
-            alt="Projected 2050 BAU Water Stress WRI category map"
+            src="indicatorcats.png"
+            alt="Water stress and future hotspot indicators"
           />
           <figcaption>
              This figure shows how raw water-stress values are grouped into WRI risk categories, 
@@ -260,6 +260,21 @@
           </article>
         </div>
       </section>
+
+      <div class="section-header modeling-header">
+  <p class="section-kicker">Predictive Modeling</p>
+  <h3>Linear vs. Logistic Regression</h3>
+  <p>
+    Two regression models were used to interpret future basin risk within the WRI
+    framework. The linear regression explained variation in projected 2030 BAU water
+    stress and showed that projected depletion had the strongest association with
+    future stress (<strong>R² = 0.819</strong>). The logistic regression classified
+    whether a basin would be high-risk in 2030 and performed very strongly
+    (<strong>accuracy = 0.96</strong>, <strong>ROC-AUC = 0.991</strong>). Together,
+    these models suggest that future hotspot patterns are structured rather than
+    random.
+  </p>
+</div>
 
       <section id="change" class="section">
         <div class="section-header">
