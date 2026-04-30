@@ -34,6 +34,9 @@
             hotspots are persistent rather than entirely new by 2050.
           </p>
         </div>
+
+        <div class="hero-panel">
+          <div class="stat-grid">
             <article class="stat-card">
               <span class="stat-value">1,199</span>
               <span class="stat-label">Basins analyzed</span>
@@ -57,77 +60,71 @@
       <section class="section intro-grid">
         <div class="section-copy">
           <p class="section-kicker">Definitions</p>
-          <figure> 
-          </figure>
-          <div class="card-stack">
+        </div>
+
+        <div class="card-stack">
           <article class="story-card">
             <h3>What is water stress?</h3>
             <p>
-             Water stress is defined as the ratio of total water demand to available renewable water supply  <em> (WRI Aqueduct 4.0) </em>
-          <img
-            src="indicatorcats.png"
-            alt="Water stress and future hotspot indicators"
-          />
-          <figcaption>
-             This figure shows how raw water-stress values are grouped into WRI risk categories, 
-             with values of 0.4 and above classified as high or extremely high stress; in this project, 
-              that threshold is used to define future hotspot basins. 
-          </figcaption>
-        </figure>
+              Water stress is the ratio of total water demand to available renewable
+              water supply <em>(WRI Aqueduct 4.0)</em>.
+            </p>
+            <figure class="media-card">
+              <img
+                src="indicatorcats.png"
+                alt="Water stress and future hotspot indicators"
+              />
+              <figcaption>
+                This figure shows how raw water-stress values are grouped into WRI
+                risk categories, with values of 0.4 and above classified as high or
+                extremely high stress. In this project, that threshold is used to
+                define future hotspot basins.
+              </figcaption>
+            </figure>
+          </article>
 
+          <article class="story-card">
+            <h3>What are HydroBASINS?</h3>
+            <p>
+              A hydrological basin (HydroBASINS) is an area that drains to a common
+              outlet such as a river, inland lake, or ocean. Each larger basin can
+              be divided into smaller sub-basins at stream confluences, which makes
+              basins a natural unit for studying freshwater scarcity because water
+              availability and use are linked across the same drainage system.
+              WRI Aqueduct 4.0 uses HydroBASINS level 6 sub-basins.
             </p>
           </article>
-          <article class="story-card">
-          <h3>What are HydroBASINS?</h3>
-          <p>
-            A hydrological basin (HydroBASINS) is an area that drains to a common outlet such as
-            a river, inland lake, or ocean. Each larger basin can be divided into
-            smaller sub-basins at stream confluences, which makes basins a natural
-            unit for studying freshwater scarcity because water availability and use
-            are linked across the same drainage system. The assumption is that within
-            each hydrological sub-basin, water resources are pooled. Water
-            withdrawal is satisfied using the water resources available to
-            the sub-basin <em>(WRI Aqueduct 4.0)</em> . 
-            WRI Aqueduct 4.0 uses HydroBASINS level 6 sub-basins.
-          </p>
-          </article>
-
 
           <article class="story-card">
             <h3>What is a hotspot?</h3>
             <p>
               For this project, a future hotspot is defined as a basin with
-              projected 2030 BAU raw water stress <code>bau30_ws_x_r &gt;= 0.4</code>. 
-              WRI defines freshwater stress as "the ratio of total water demand
-              to available renewable surface and groundwater supplies. Water
-              demand includes domestic, industrial, irrigation, and livestock
-              consumptive and nonconsumptive uses. Available renewable
-              water supplies include the impact of upstream consumptive
-              water users and large dams on downstream water availability" <em> (WRI Aqueduct 4.0) </em>
+              projected 2030 BAU raw water stress
+              <code>bau30_ws_x_r &gt;= 0.4</code>. In raw-value terms, this is the
+              point where WRI classifies projected water stress as high.
             </p>
           </article>
+
           <article class="story-card">
             <h3>Basin-level vs state-level</h3>
             <p>
               The main analysis uses HydroBASINS level 6 hydrological subbasins
-              because freshwater scarcity is defined using WRI variables. Datasets from the NOAA and USGS that are more naturally
-              organized by state are only used for contextual supporting evidence. 
+              because freshwater scarcity is defined using WRI basin variables.
+              NOAA and USGS datasets that are more naturally organized by state are
+              used only as contextual supporting evidence.
             </p>
           </article>
         </div>
       </section>
-<p>
 
-
-</p>
       <section class="section intro-grid">
         <div class="section-copy">
           <p class="section-kicker">Methods</p>
           <h2>What is this showing?</h2>
           <p>
             This project is designed to answer where future freshwater hotspots are
-            located, how those hotspots change over time, what kinds of hotspots
-            they are, and what supporting context helps interpret those patterns.
+            located, how those hotspots change over time, and what supporting context
+            helps interpret those patterns.
           </p>
           <article class="story-card inline-card">
             <h3>Why state summaries still appear</h3>
@@ -144,34 +141,34 @@
           <article class="story-card">
             <h3>Important limitation</h3>
             <p>
-              Some hydrobasins cross state borders, so state-level WRI summaries
-              should be interpreted as broad approximations rather than exact
-              hydrologic measurements. That is why the clearest findings in this
-              project come from basin maps and basin rankings, with state-level
-              context used only to help interpret patterns.
+              Some hydrobasins cross state borders, so state-level summaries should
+              be interpreted as broad approximations rather than exact hydrologic
+              measurements. That is why the clearest findings in this project come
+              from basin maps and basin rankings, with state-level context used only
+              to help interpret patterns.
             </p>
           </article>
+
           <article class="story-card">
             <h3>Data sources (summary)</h3>
             <p>
               WRI Aqueduct provides future basin-level projections for 2030 and 2050
-              under a business-as-usual scenario. 
-              IWA provides historical freshwater stress from 2009 to 2020. 
-              NOAA temperature and USGS irrigation are used to support state-level context.
+              under a business-as-usual scenario. IWA provides historical freshwater
+              stress from 2009 to 2020. NOAA temperature and USGS irrigation data are
+              used to support state-level context.
             </p>
           </article>
         </div>
       </section>
-<p>
 
-
-</p>
       <section id="question" class="section intro-grid">
         <div class="section-copy">
           <p class="section-kicker">Research Framing</p>
           <h2>What is this project asking?</h2>
           <p>
-            Which U.S. basins are projected to face the highest future water stress in 2030 and 2050, how does that risk change over time, and what historical and regional context helps interpret those hotspot patterns?
+            Which U.S. basins are projected to face the highest future water stress
+            in 2030 and 2050, how does that risk change over time, and what
+            historical and regional context helps interpret those hotspot patterns?
           </p>
         </div>
 
@@ -194,9 +191,8 @@
             <h3>3. What helps interpret future risk?</h3>
             <p>
               Use historical freshwater stress and selected state-level irrigation
-              context to interpret why some hotspot-heavy regions stand out more
-              than others, while keeping the main findings anchored at the basin
-              level.
+              context to interpret why some hotspot-heavy regions stand out more than
+              others, while keeping the main findings anchored at the basin level.
             </p>
           </article>
         </div>
@@ -220,10 +216,10 @@
             alt="Projected 2050 BAU Water Stress WRI category map"
           />
           <figcaption>
-            2050 WRI category map. High and extremely high projected stress
-            remains concentrated in arid and high-demand regions, showing that
-            future scarcity is geographically concentrated rather than spread
-            evenly nationwide.
+            2050 WRI category map. High and extremely high projected stress remains
+            concentrated in arid and high-demand regions, showing that future
+            scarcity is geographically concentrated rather than spread evenly
+            nationwide.
           </figcaption>
         </figure>
 
@@ -244,36 +240,21 @@
             <p class="section-kicker">Regional Case Study</p>
             <h3>The Southwest</h3>
             <p>
-              The Southwest is the clearest regional concentration of future
-              hotspot basins in this project. Arizona, Nevada, New Mexico, and
-              California all stand out repeatedly in the basin maps, which makes
-              the western U.S. the strongest geographic anchor for the larger
-              national hotspot pattern.
+              The Southwest is the clearest regional concentration of future hotspot
+              basins in this project. Arizona, Nevada, New Mexico, and California
+              all stand out repeatedly in the basin maps, which makes the western
+              U.S. the strongest geographic anchor for the larger national hotspot
+              pattern.
             </p>
             <p>
-              This regional zoom-in matters because it shows that future scarcity
-              is not simply rising everywhere at once. Instead, it is clustering
-              in a smaller set of basins where structural pressure appears to stay
+              This regional zoom-in matters because it shows that future scarcity is
+              not simply rising everywhere at once. Instead, it is clustering in a
+              smaller set of basins where structural pressure appears to stay
               elevated across both projection horizons.
             </p>
           </article>
         </div>
       </section>
-
-      <div class="section-header modeling-header">
-  <p class="section-kicker">Predictive Modeling</p>
-  <h3>Linear vs. Logistic Regression</h3>
-  <p>
-    Two regression models were used to interpret future basin risk within the WRI
-    framework. The linear regression explained variation in projected 2030 BAU water
-    stress and showed that projected depletion had the strongest association with
-    future stress (<strong>R² = 0.819</strong>). The logistic regression classified
-    whether a basin would be high-risk in 2030 and performed very strongly
-    (<strong>accuracy = 0.96</strong>, <strong>ROC-AUC = 0.991</strong>). Together,
-    these models suggest that future hotspot patterns are structured rather than
-    random.
-  </p>
-</div>
 
       <section id="change" class="section">
         <div class="section-header">
@@ -311,8 +292,7 @@
             The strongest interpretation here is not that the entire country shifts
             dramatically upward between 2030 and 2050. Instead, future risk appears
             to persist in many of the same vulnerable regions while a smaller set of
-            basins experiences sharper intensification. That makes the key time
-            story one of uneven worsening, not uniform national change.
+            basins experiences sharper intensification.
           </p>
         </article>
 
@@ -325,17 +305,18 @@
             Basin hotspot typology map. This adds a spatial layer to the time story
             by showing not just where future hotspots are, but what kind of hotspot
             each basin appears to be across the 2030 to 2050 period.
-
           </figcaption>
         </figure>
+
         <article class="section-note section-note--emphasis">
-          <p> Taken together, the typology results suggest three broad patterns: persistent hotspot basins that remain high-risk in both years, a smaller set of emerging basins that newly cross the threshold by 2050, and a large majority of basins that remain below hotspot status in both periods. The dominant time pattern is persistence rather than widespread new emergence.
+          <p>
+            Taken together, the typology results suggest three broad patterns:
+            persistent hotspot basins that remain high-risk in both years, a smaller
+            set of emerging basins that newly cross the threshold by 2050, and a
+            large majority of basins that remain below hotspot status in both
+            periods.
           </p>
         </article>
-<p>
-
-     
-</p>
 
         <div class="summary-banner summary-banner--model">
           <div>
@@ -362,11 +343,11 @@
           <p class="section-kicker">Analysis Question 3</p>
           <h2>What helps interpret hotspot patterns?</h2>
           <p>
-            This section uses historical freshwater stress and irrigation-heavy
-            state context to help interpret hotspot concentration. These are
-            supporting contextual views rather than causal proof, and they are
-            shown at the state level because the external datasets do not align
-            perfectly with basin boundaries.
+            This section uses historical freshwater stress, irrigation-heavy state
+            context, and recent warming patterns to help interpret hotspot
+            concentration. These are supporting contextual views rather than causal
+            proof, and they are shown at the state level because the external
+            datasets do not align perfectly with basin boundaries.
           </p>
         </div>
 
@@ -379,9 +360,7 @@
             <figcaption>
               Historical freshwater stress and future hotspot share for selected
               hotspot states. Among the states highlighted in this project, higher
-              historical stress generally aligns with larger future hotspot shares,
-              reinforcing the idea that many future hotspot regions are structurally
-              rather than randomly vulnerable.
+              historical stress generally aligns with larger future hotspot shares.
             </figcaption>
           </figure>
 
@@ -391,7 +370,10 @@
               alt="Historical temperature change versus future high-risk share"
             />
             <figcaption>
-              Recent warming is shown here as an additional climate-context layer for the selected states. The pattern is descriptive rather than causal, but it helps show that some hotspot-heavy states have also experienced stronger recent warming.
+              Recent warming is shown here as an additional climate-context layer
+              for selected states. The pattern is descriptive rather than causal,
+              but it helps show that some hotspot-heavy states have also experienced
+              stronger recent warming.
             </figcaption>
           </figure>
         </div>
@@ -403,18 +385,17 @@
             loading="lazy"
           ></iframe>
           <figcaption>
-            Interactive state-level irrigation context map. Hover over each state to view
-            exact irrigated acreage values and its irrigation category. This is shown as
-            supporting context rather than as a hotspot-defining layer.
+            Interactive state-level irrigation context map. Hover over each state
+            to view exact irrigated acreage values and its irrigation category. This
+            is shown as supporting context rather than as a hotspot-defining layer.
           </figcaption>
         </figure>
 
         <article class="section-note">
           <p>
-            Future hotspot basins are not randomly
-            distributed. Historical freshwater stress provides the strongest
-            supporting context, and irrigation-heavy state patterns provide an
-            additional layer of interpretation. Together, they suggest that future
+            Historical freshwater stress provides the strongest supporting context,
+            while irrigation-heavy state patterns and recent warming add broader
+            regional interpretation. Together, they suggest that future
             vulnerability is tied to broader structural pressure rather than a
             single isolated variable.
           </p>
@@ -422,27 +403,18 @@
 
         <div class="section-header modeling-header">
           <p class="section-kicker">Predictive Modeling</p>
-          <h3>Can future risk be predicted from current basin conditions?</h3>
+          <h3>What do the regression models show?</h3>
           <p>
-            I also tested whether basin-level WRI indicators could predict future
-            risk within the WRI framework. These model metrics are shown as
-            supporting evidence rather than as external validation.
+            Two regression models were used to interpret future basin risk within
+            the WRI framework. The linear regression explained variation in
+            projected 2030 BAU water stress and showed that projected depletion had
+            the strongest association with future stress
+            (<strong>R² = 0.819</strong>). The logistic regression classified
+            whether a basin would be high-risk in 2030 and performed very strongly
+            (<strong>accuracy = 0.96</strong>,
+            <strong>ROC-AUC = 0.991</strong>). Together, these models suggest that
+            future hotspot patterns are structured rather than random.
           </p>
-        </div>
-
-        <div class="summary-banner summary-banner--model">
-          <div>
-            <span class="summary-label">Regression R²</span>
-            <span class="summary-value">0.819</span>
-          </div>
-          <div>
-            <span class="summary-label">Regression RMSE</span>
-            <span class="summary-value">0.295</span>
-          </div>
-          <div>
-            <span class="summary-label">Classification ROC-AUC</span>
-            <span class="summary-value">0.991</span>
-          </div>
         </div>
       </section>
 
@@ -461,8 +433,12 @@
               places are not simply places that look stressed in one year; they are
               places where risk remains high or intensifies over time, which makes
               early identification important for long-run planning.
-              <p>
-              Because most 2050 hotspots are persistent rather than entirely new, these findings suggest that many future water-risk regions can already be identified today, making early intervention more possible than the idea of sudden crisis would imply. </p>
+            </p>
+            <p>
+              Because most 2050 hotspots are persistent rather than entirely new,
+              these findings suggest that many future water-risk regions can already
+              be identified today, making earlier intervention more possible than
+              the idea of sudden crisis would imply.
             </p>
           </div>
 
@@ -491,9 +467,13 @@
 
         <article class="section-note">
           <p>
-            <strong>Conclusion.</strong> 
-
-            Because most 2050 hotspots are persistent rather than entirely new, future freshwater scarcity in the United States appears less like a sudden nationwide crisis and more like a concentrated structural risk that can already be identified in specific basins today. In several hotspot-heavy western and central states, large irrigated acreage suggests that agricultural water demand is one part of the broader structural pressure surrounding future scarcity.
+            <strong>Conclusion.</strong> Because most 2050 hotspots are persistent
+            rather than entirely new, future freshwater scarcity in the United
+            States appears less like a sudden nationwide crisis and more like a
+            concentrated structural risk that can already be identified in specific
+            basins today. In several hotspot-heavy western and central states,
+            large irrigated acreage suggests that agricultural water demand is one
+            part of the broader structural pressure surrounding future scarcity.
           </p>
         </article>
       </section>
