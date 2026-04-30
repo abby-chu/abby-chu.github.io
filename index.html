@@ -36,14 +36,6 @@
         </div>
 
         <div class="hero-panel">
-          <div class="panel-label">Project Thesis</div>
-          <p>
-            Future hotspot basins are not randomly distributed. They cluster in a
-            smaller set of basins where future stress remains high across time, and a
-            smaller subset shows more clearly emerging risk. Historical stress and
-            irrigation-heavy state context help interpret those patterns, but the
-            core findings remain basin-based.
-          </p>
           <div class="stat-grid">
             <article class="stat-card">
               <span class="stat-value">1,199</span>
@@ -64,14 +56,6 @@
           </div>
         </div>
 
-        <div class="hero-thesis hero-thesis--full">
-          <h2>Main Takeaway</h2>
-          <p>
-            The strongest hotspot patterns cluster in western and high-demand
-            regions, and most 2050 hotspots appear to be persistent structural
-            hotspots rather than abrupt nationwide emergence.
-          </p>
-        </div>
       </section>
 
       <section class="section intro-grid">
@@ -227,7 +211,7 @@
 
         <figure class="media-card media-card--full">
           <img
-            src="choropleth_bau50_ws_category.png"
+            src="../data/cleaned/choropleths/choropleth_bau50_ws_category.png"
             alt="Projected 2050 BAU Water Stress WRI category map"
           />
           <figcaption>
@@ -241,7 +225,7 @@
         <div class="media-grid media-grid--hotspot-detail">
           <figure class="media-card">
             <img
-              src="top_bau_increase_hotspots.png"
+              src="../data/cleaned/top_bau_increase_hotspots.png"
               alt="Top basins by BAU stress increase from 2030 to 2050"
             />
             <figcaption>
@@ -314,7 +298,7 @@
 
         <figure class="media-card media-card--full">
           <img
-            src="choropleth_hotspot_typology.png"
+            src="../data/cleaned/choropleths/choropleth_hotspot_typology.png"
             alt="Basin hotspot typology choropleth"
           />
           <figcaption>
@@ -369,7 +353,7 @@
         <div class="media-grid">
           <figure class="media-card">
             <img
-              src="historical_vs_future_highriskstates.png"
+              src="../data/cleaned/historical_future_context/historical_vs_future_highriskstates.png"
               alt="Historical mean freshwater stress versus future high-risk share"
             />
             <figcaption>
@@ -383,7 +367,7 @@
 
           <figure class="media-card">
             <img
-              src="temperature_vs_future_highrisk.png"
+              src="../data/cleaned/historical_future_context/temperature_vs_future_highrisk.png"
               alt="Historical temperature change versus future high-risk share"
             />
             <figcaption>
@@ -394,7 +378,7 @@
 
         <figure class="media-card media-card--full">
           <iframe
-            src="irrigated_acres_state_map_interactive.html"
+            src="../data/cleaned/irrigated_acres_state_map_interactive.html"
             title="Interactive state irrigated acres map"
             loading="lazy"
           ></iframe>
@@ -425,21 +409,7 @@
             supporting evidence rather than as external validation.
           </p>
         </div>
-
-        <div class="summary-banner summary-banner--model">
-          <div>
-            <span class="summary-label">Regression R²</span>
-            <span class="summary-value">0.819</span>
-          </div>
-          <div>
-            <span class="summary-label">Regression RMSE</span>
-            <span class="summary-value">0.295</span>
-          </div>
-          <div>
-            <span class="summary-label">Classification ROC-AUC</span>
-            <span class="summary-value">0.991</span>
-          </div>
-        </div>
+        
       </section>
 
       <section id="limits" class="section section--dark">
@@ -489,7 +459,7 @@
           <p>
             <strong>Conclusion.</strong> 
 
-            Because most 2050 hotspots are persistent rather than entirely new, future freshwater scarcity in the United States appears less like a sudden nationwide crisis and more like a concentrated structural risk that can already be identified in specific basins today. In several hotspot-heavy western and central states, large irrigated acreage suggests that agricultural water demand is one part of the broader structural pressure surrounding future scarcity.
+            Future freshwater scarcity in the United States appears less like a sudden nationwide crisis and more like a concentrated structural risk that can already be identified in specific basins today. In several hotspot-heavy western and central states, large irrigated acreage suggests that agricultural water demand is one part of the broader structural pressure surrounding future scarcity.
           </p>
         </article>
       </section>
