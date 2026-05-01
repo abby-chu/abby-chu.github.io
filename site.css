@@ -51,8 +51,10 @@ img {
   align-items: start;
 }
 
-.water-stress-copy {
-  min-width: 0;
+.definitions-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 .water-stress-figure {
