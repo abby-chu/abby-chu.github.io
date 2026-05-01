@@ -44,12 +44,44 @@ img {
 .media-card img {
   cursor: zoom-in;
 }
+.water-stress-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1.5fr) minmax(260px, 340px);
+  gap: 1.75rem;
+  align-items: start;
+}
+
+.water-stress-copy {
+  min-width: 0;
+}
+
+.water-stress-figure {
+  margin: 0;
+  padding: 1rem;
+  max-width: 340px;
+  width: 100%;
+  justify-self: end;
+}
+
+.water-stress-figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
 @media (max-width: 768px) {
   .water-stress-layout {
-    display: grid;
-    grid-template-columns: 1fr !important;
+    grid-template-columns: 1fr;
     gap: 1rem;
   }
+
+  .water-stress-figure {
+    max-width: 280px;
+    justify-self: center;
+  }
+}
+
 
   .water-stress-layout figure {
     max-width: 100% !important;
