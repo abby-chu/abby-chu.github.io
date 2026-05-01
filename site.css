@@ -82,7 +82,13 @@ img {
     max-width: 280px;
     justify-self: center;
   }
+
+  .water-stress-layout figure {
+    max-width: 100%;
+    margin: 0 auto;
+  }
 }
+
 
 
   .water-stress-layout figure {
@@ -94,11 +100,12 @@ img {
 iframe {
   display: block;
   width: 100%;
-  min-height: 34rem;
+  height: 40rem;
   border: 0;
   border-radius: 18px;
   background: #fffdf8;
 }
+
 
 a {
   color: inherit;
