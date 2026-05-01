@@ -44,6 +44,18 @@ img {
 .media-card img {
   cursor: zoom-in;
 }
+@media (max-width: 768px) {
+  .water-stress-layout {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 1rem;
+  }
+
+  .water-stress-layout figure {
+    max-width: 100% !important;
+    margin: 0 auto;
+  }
+}
 
 iframe {
   display: block;
